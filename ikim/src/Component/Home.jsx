@@ -9,10 +9,13 @@ const Home = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['Hello, world!', 'Welcome to my website!', 'Enjoy your stay!'],
-      typeSpeed: 50,
-      backSpeed: 25,
-      loop: true,
+      strings: ["Web Development", "Mobile App Development", "UI/UX Design","Video Editing"],
+            typeSpeed: 90,
+            backSpeed: 90,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
     };
     const typed = new Typed(el.current, options);
     return () => {
@@ -64,15 +67,16 @@ const Home = () => {
               <div className="row justify-content-center mb-4">
                 <div className="col-md-8 text-center typedwords">
                   <h1>We Love To Build <span className="typed-words" ref={el} /></h1>
-                  <div className="homebutton">
-                    <a data-fancybox className="btn btn-primary btn-md">Read More</a>
-                    <a data-fancybox className="btn btn-primary btn-md">Get Started Today</a>
-                  </div>
+                 
                 </div>
               </div>
             </div>
           </div>
         </div>
+         <div className="homebutton">
+                    <a data-fancybox className="btn btn-primary btn-md">Read More</a>
+                    <a data-fancybox className="btn btn-primary btn-md">Get Started Today</a>
+                  </div>
       </div>
 
       {/* Overlay */}

@@ -62,16 +62,17 @@ body {
             
         }
 .logoimage{
-            padding-top: 0;
-            margin-top: -100px;
+            padding-bottom: 30px;
+            margin-top: 100px;
             margin-right: 300px;
+            /* height: 100%; */
         }
         .logoimage img{
-            width:34%;
-           color: #033D54 ;
-           padding: 330;
-           margin-top: -20px;
-           margin-right: -123px;
+            width:90%;
+           /* color: #033D54 ; */
+          
+           height: 100%;
+          
             
         }
         .logoicon{
@@ -81,6 +82,7 @@ body {
         }
         .menuicon{
             margin-right: 140px;
+            margin-bottom: 20px;
         }
         header {
             position: sticky; /* Make header sticky */
@@ -111,4 +113,14 @@ body {
         .menuicon {
     margin-left: auto; /* Push the menu icon to the right */
     margin-right: -900px;
+}
+
+
+.homebutton{
+    text-align: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.btn{
+    margin: 30px;
 }
