@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "typed.js": "^2.1.0"
+  }
+}
