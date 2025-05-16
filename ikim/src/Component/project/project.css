@@ -52,15 +52,3 @@
 .media-1:hover .media-1-content {
   opacity: 1;
 }
-
-.social-media {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  margin: 10px;
-  list-style: none;
-  text-decoration: none;
-}
-
-
-/*  */
