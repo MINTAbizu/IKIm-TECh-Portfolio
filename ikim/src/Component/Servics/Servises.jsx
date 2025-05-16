@@ -1,27 +1,26 @@
-import React from 'react'
-import '../Servics/services.css'
+import React from 'react';
+import '../Servics/services.css';
 
-function Servises({logo,title,descrption}) {
+function Servises({ logo, title, descrption }) {
   return (
-    
-    <div class="containers">
-    <div class="box left">
-        <div class="webcontainer">
-            <div class="weblogo">
-               <div className='weblogoimage'> <img src={logo} alt=""/></div>
-                 <div class="webtitle">
-                     <h2>{title}</h2>
-                 </div>
+    <div className="containers">
+      <div className="box left">
+        <div className="webcontainer">
+          <div className="weblogo">
+            <div className='weblogoimage'>
+              <img src={logo} alt="Service Logo" />
             </div>
-           
-            <div class="descrption">
-              <p>{descrption}</p>
+            <div className="webtitle">
+              <h2>{title}</h2>
             </div>
+          </div>
+          <div className="descrption">
+            <p>{descrption}</p>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
-    
-  )
+  );
 }
 
-export default Servises
+export default Servises;

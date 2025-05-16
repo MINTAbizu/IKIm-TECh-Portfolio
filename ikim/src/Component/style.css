@@ -56,6 +56,7 @@ body {
             cursor: pointer; /* Change cursor to pointer */
             /* margin-top: -40px; */
             margin-right: -800px;
+            /* margin-top: 90px; */
         }
         .webcontainer:hover{
             transform: translateY(-24px);
@@ -77,7 +78,7 @@ body {
         }
         .logoicon{
             display: flex;
-            margin: 60px;
+            /* margin-top: -120px; */
             justify-content: space-between;
         }
         .serviserwapr{
@@ -128,4 +129,33 @@ body {
 }
 .btn{
     margin: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .site-blocks-cover {
+    height: 70vh;
+  }
+
+  .homebutton {
+    flex-direction: column;
+  }
+
+  .typed-words {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .typed-words {
+    font-size: 1.2rem;
+  }
+
+  .serviserwapr {
+    flex-direction: column;
+  }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../project/project.css';
+import '../../Component/style.css'
 
 function Project({ image, title }) {
   return (

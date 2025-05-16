@@ -1,0 +1,165 @@
+
+        .aboutcontainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .left-section, .right-section {
+            position: absolute;
+            width: calc(50% - 20px); /* Adjust width to create gap */
+            height: 100%;
+            /* background-color: #349; */
+            opacity: 0;
+        }
+        .left-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            background-color: white;
+            left: 0;
+            margin-right: 130px; /* Create gap */
+            animation: slideInLeft 1s forwards;
+        }
+        .right-section {
+            right: 0;
+            margin-left: 10px; /* Create gap */
+            animation: slideInRight 1s forwards;
+        }
+        .abuttitle{
+            text-align: center;
+            font-size: 28px;
+            font-weight: 900px;
+        }
+        .descrption{
+            text-align: center;
+        }
+        .firstcard{
+            display: flex;
+            justify-content: space-between;
+            border: 3px solid #033D54  ;
+            border-radius: 10px;
+            width: 80%;
+            height: 130px;
+            margin: 20px;
+            margin-bottom: 80px;
+            /* box-shadow: 0 40px 20px #c7bfbf ; */
+           
+        }
+        .cardlogo img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+        .cardlogo{
+            margin: 12px;
+        }
+        .carddescrption h4{
+            text-align: center;
+            padding-top: 30px;
+            margin-right: 5px;
+
+
+        }
+      
+
+        .firstcard:hover{
+            transform: translateY(2px);
+            box-shadow: 20px 20px 20px #c7bfbf ;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            
+        }
+.about{
+    margin-top: 90px;
+    align-items: center;
+    margin-left: 500px;
+
+}
+.teamflex{
+    display: flex;
+    justify-content: space-between;
+    gap :80px;
+    margin-top: 40px;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    
+}
+.teammemeber{
+    width: 100%;
+    padding: 40px;
+}
+.abotubuttton{
+    margin-top: 130px;
+    text-align: center;
+   
+}
+.abotubuttton button{
+     border-radius: 5px;
+    border: 4px solid white;
+    width: 30%;
+
+}
+.right-section {
+    background-image: url('../image/icon/logo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* margin-left: -10px; */
+   padding: 0;
+   height: 300px;
+   margin-top: -10px;
+   margin-right: 10px;
+}
+.right-section p{
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    
