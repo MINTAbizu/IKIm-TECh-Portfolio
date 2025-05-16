@@ -3,6 +3,7 @@ import Typed from 'typed.js';
 import './style.css';  // Ensure this file includes your CSS styles
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from '../Component/image/icon/logo.jpg'
+import Servises from './Servics/Servises';
 const Home = () => {
   const el = useRef(null);
   const [isSidebarActive, setSidebarActive] = useState(false);
@@ -82,10 +83,16 @@ const Home = () => {
       {/* Overlay */}
       <div className={`menu-overlay ${isSidebarActive ? 'active' : ''}`} onClick={toggleSidebar}></div>
 
-      {/* Footer */}
-      <footer>
-        <p>© 2025 Your Website. All rights reserved.</p>
-      </footer>
+     <div className="serviserwapr">
+            <Servises logo={logo}  title={'Web-Application-Devlopment'} descrption={'Build user-friendly websites that work seamlessly on all devices Create intuitive designs that enhance  user experience and engagement.'}/>
+              <Servises logo={logo}  title={'Web-Application-Devlopment'} descrption={'Build user-friendly websites that work seamlessly on all devices Create intuitive designs that enhance  user experience and engagement.'}/>
+              <Servises logo={logo}  title={'Web-Application-Devlopment'} descrption={'Build user-friendly websites that work seamlessly on all devices Create intuitive designs that enhance  user experience and engagement.'}/>
+     </div>
+     <div className="serviserwapr">
+            <Servises logo={logo}  title={'Web-Application-Devlopment'} descrption={'Build user-friendly websites that work seamlessly on all devices Create intuitive designs that enhance  user experience and engagement.'}/>
+              <Servises logo={logo}  title={'Web-Application-Devlopment'} descrption={'Build user-friendly websites that work seamlessly on all devices Create intuitive designs that enhance  user experience and engagement.'}/>
+              <Servises logo={logo}  title={'Web-Application-Devlopment'} descrption={'Build user-friendly websites that work seamlessly on all devices Create intuitive designs that enhance  user experience and engagement.'}/>
+     </div>
     </div>
   );
 };

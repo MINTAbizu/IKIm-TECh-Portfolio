@@ -80,6 +80,11 @@ body {
             margin: 60px;
             justify-content: space-between;
         }
+        .serviserwapr{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
         .menuicon{
             margin-right: 140px;
             margin-bottom: 20px;
