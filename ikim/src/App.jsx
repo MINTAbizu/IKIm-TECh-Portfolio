@@ -1,3 +1,5 @@
+import Contact from "./Component/contact/Contact"
+import Footer from "./Component/Footer/Footer"
 import Home from "./Component/Home"
 
 
@@ -11,6 +13,8 @@ function App() {
    <div>
     <Home/>
     <Projectproduct/>
+    <Contact/>
+    <Footer/>
    
     
    </div>
